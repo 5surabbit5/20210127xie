@@ -82,7 +82,7 @@ export default class ControlCenter extends React.Component {
     return (
       <div>
         <TestLifeCycle num={x}></TestLifeCycle>
-        <button onClick={() => this.handleClick()}>点我加一</button>
+        <button onClick={this.handleClick}>点我加一</button>
       </div>
     );
   }
