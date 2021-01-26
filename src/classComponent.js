@@ -73,10 +73,11 @@ export default class ControlCenter extends React.Component {
       x: x + 1,
     });
   };
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   console.log('shouldComponentUpdate', nextProps, nextState);
-  //   return true;
-  // }
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log('shouldComponentUpdate', nextProps, nextState);
+    return true;
+  }
+
   render() {
     const { x } = this.state;
     return (
