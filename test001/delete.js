@@ -5,3 +5,4 @@ function appInst() {
 }
 
 console.log('xuyaogenggaineirong');
+// 这是一条注释内容
