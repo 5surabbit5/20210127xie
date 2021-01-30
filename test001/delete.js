@@ -5,4 +5,4 @@ function appInst() {
 }
 
 console.log('xuyaogenggaineirong');
-console.log('kewu');
+// 这是一条注释内容
