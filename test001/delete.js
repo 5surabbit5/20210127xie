@@ -5,3 +5,4 @@ function appInst() {
 }
 
 console.log('xuyaogenggaineirong');
+console.log('kewu');
